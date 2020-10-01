@@ -48,7 +48,6 @@ func main() {
 	flag.BoolVar(&query, "n", false, "Inject payload to param name too")
 	flag.BoolVar(&paramName, "l", false, "Append payload after the extension")
 	flag.BoolVar(&path, "p", false, "Path only (default will replace both path and query)")
-	flag.BoolVar(&last, "l", false, "Append payload after the extension")
 	flag.BoolVar(&removeLastPath, "pp", true, "Remove last path")
 	flag.BoolVar(&RemoveDummyPort, "ppp", true, "Remove dummy port like :80")
 
